@@ -1,0 +1,16 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("blastchar/telco-customer-churn")
+
+print("Path to dataset files:", path)
+
+import os
+import pandas as pd
+
+# List the contents of the downloaded directory to find the correct file path
+print(os.listdir(path))
+
+# Assuming the file is directly in the path, or adjust based on the above output
+df = pd.read_csv(f"{path}/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+print(df.head())
