@@ -1,0 +1,9 @@
+# Quick Links
+
+GitHub : https://github.com/Anurag-Mohan/Customer-Churn
+--------------------------------------------------------------------------------------------------------------
+Google Colab : https://colab.research.google.com/drive/1ijTizUwcQFZVDTeYMt-MPZ-Ou_06mWBO?usp=sharing
+--------------------------------------------------------------------------------------------------------------
+Streamlit : https://customer-churn-telecom.streamlit.app
+
+---
